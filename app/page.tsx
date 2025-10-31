@@ -83,7 +83,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="https://x.com/daivikpatel"
+              href="https://x.com/daivikpatell"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-[#333] hover:text-black transition-colors flex items-center gap-1 no-underline group"
@@ -94,7 +94,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="https://instagram.com/daivikpatel"
+              href="https://www.instagram.com/daivikpatel_/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-[#333] hover:text-black transition-colors flex items-center gap-1 no-underline group"

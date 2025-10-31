@@ -3,7 +3,7 @@ import PageLayout from '../../components/PageLayout';
 export default function Sidequests() {
   return (
     <PageLayout>
-      <h1 className="text-[2.75rem] font-normal mb-2 text-black">
+      <h1 className="text-[2.75rem] font-normal mb-6 text-black">
         Sidequests
       </h1>
 
@@ -17,21 +17,16 @@ export default function Sidequests() {
           carnegie mellon university spring 2024 — most impactful hack<br />
           princeton university fall 2023 — first place education track</em>
         </p>
-
-        <p>
-          <strong>grossman innovation prize</strong><br />
-          <em>awarded $50k for the best research in the school of arts and sciences. </em>
-        </p>
         
         <p>
           <strong>notable projects</strong><br />
           <em>built passionfruit, a personality test taken by <strong>270,000+</strong> people<br />
           built piggybank, a stock analysis discord bot with <strong>32,000+</strong> active users</em>
         </p>
-        
+
         <p>
-          <strong>sustainability work</strong><br />
-          <em>i began advocating for environmental awareness in high school and wrote a handbook that was adopted by my township's school system. also am vegetarian :).</em>
+          <strong>grossman innovation prize</strong><br />
+          <em>awarded $50k for the best research in the school of arts and sciences. </em>
         </p>
       </div>
     </PageLayout>

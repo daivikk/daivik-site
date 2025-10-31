@@ -36,16 +36,19 @@ export default function Blog() {
 
       {/* Main content area */}
       <div className="pt-32 max-w-2xl">
-        <h1 className="text-[2.75rem] font-normal mb-2 text-black">
+        <h1 className="text-[2.75rem] font-normal mb-6 text-black">
           Blog
         </h1>
         
         <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333]">
           {blogPosts.map((post) => (
             <div key={post.slug}>
-              <Link href={`/blog/${post.slug}`} className="no-underline hover:opacity-70 transition-opacity">
-                <p className="mb-1">
+              <Link href={`/blog/${post.slug}`} className="no-underline hover:opacity-70 transition-opacity group">
+                <p className="mb-1 inline-flex items-center gap-0.5">
                   <strong>{post.title}</strong>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
+                    <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
+                  </svg>
                 </p>
                 <p className="text-xs text-[#666] mb-2">
                   {Array.isArray(post.author) ? post.author.join(', ') : post.author} · {post.date}
