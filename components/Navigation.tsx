@@ -16,22 +16,19 @@ export default function Navigation() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex flex-col gap-3 -ml-5" style={{ fontFamily: 'var(--font-iowan)' }}>
+    <nav className="flex gap-6" style={{ fontFamily: 'var(--font-iowan)' }}>
       {NAV_LINKS.map((link) => {
         const isActive = pathname === link.href;
         return (
           <Link
             key={link.href}
             href={link.href}
-            className={`text-xs no-underline transition-all duration-200 relative ${
+            className={`text-sm transition-colors duration-200 ${
               isActive 
-                ? 'text-black font-semibold' 
-                : 'text-[#666] hover:text-black hover:translate-x-1'
+                ? 'text-black underline underline-offset-4' 
+                : 'text-[#666] hover:text-black no-underline'
             }`}
           >
-            {isActive && (
-              <span className="absolute -left-3 top-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-black rounded-full" />
-            )}
             {link.label}
           </Link>
         );
@@ -39,4 +36,3 @@ export default function Navigation() {
     </nav>
   );
 }
-

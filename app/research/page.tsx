@@ -7,7 +7,7 @@ export default function Research() {
         Research
       </h1>
       
-      <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333] max-w-[50%]">
+      <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333]">
         <p>
           <strong>Reuse, Don't Recompute</strong><br />
           <em>NuerIPS 2025 efficient reasoning workshop paper</em>

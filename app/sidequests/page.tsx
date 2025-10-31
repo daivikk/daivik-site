@@ -7,7 +7,7 @@ export default function Sidequests() {
         Sidequests
       </h1>
 
-      <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333] max-w-[40%]">
+      <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333]">
         <p>
           <strong>hackathon experience</strong><br />
           <em>brown university spring 2025 — first place overall<br />

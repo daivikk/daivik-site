@@ -7,7 +7,7 @@ export default function Experiences() {
         Experiences
       </h1>
 
-      <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333] max-w-[50%]">
+      <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333]">
         <p>
           solving math and coding questions to train and fine tune models at <strong>scale ai</strong>.
         </p>
@@ -26,14 +26,6 @@ export default function Experiences() {
 
         <p>
           cofounded <strong>param</strong> to build voice agents for dentists and health insurance companies. <br /> raised $25k as part of the <strong>telora fellowship</strong> (~1%)
-        </p>
-
-        <p>
-          built passionfruit in high school, a personality test taken by <strong>270,000+</strong> people
-        </p>
-
-        <p>
-          built piggybank in high school, a stock analysis discord bot with <strong>32,000+</strong> active users
         </p>
       </div>
     </PageLayout>
