@@ -41,7 +41,7 @@ export default function Navigation() {
 
       {/* Mobile Hamburger Button */}
       <button
-        className="md:hidden flex items-center justify-center w-10 h-10 rounded-lg bg-white shadow-md hover:shadow-lg transition-shadow z-50"
+        className="md:hidden flex items-center justify-center w-10 h-10 rounded-lg bg-[#F7F6F3] shadow-md hover:shadow-lg transition-shadow z-50"
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Toggle menu"
       >
