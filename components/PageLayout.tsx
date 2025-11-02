@@ -10,15 +10,15 @@ interface PageLayoutProps {
 
 export default function PageLayout({ children }: PageLayoutProps) {
   return (
-    <main className="relative h-screen w-screen pl-16 pr-[60px] py-10 overflow-hidden">
+    <main className="relative min-h-screen w-screen px-6 md:pl-16 md:pr-[60px] py-10 overflow-x-hidden">
       <TimeDisplay />
       
       {/* Navigation - top right */}
-      <div className="absolute top-8 right-10">
+      <div className="absolute top-8 right-6 md:right-10">
         <Navigation />
       </div>
 
-      <div className="pt-32 max-w-2xl">
+      <div className="pt-20 md:pt-32 max-w-2xl">
         {children}
       </div>
 

@@ -1,6 +1,6 @@
 export default function LocationIndicator() {
   return (
-    <div className="absolute bottom-10 right-10 text-sm text-[#333] flex items-center gap-1">
+    <div className="absolute bottom-10 right-6 md:right-10 text-sm text-[#333] flex items-center gap-1">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"

@@ -407,7 +407,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
     <div className={`min-h-screen bg-white ${oldStyleBT.variable} ${inter.variable}`}>
       {/* Header with time */}
       <div
-        className={`fixed top-8 left-4 md:left-10 text-xs text-[#666] z-50 transition-opacity duration-300 ${
+        className={`fixed top-8 left-4 md:left-10 text-xs text-[#555] z-50 transition-opacity duration-300 ${
           isScrolled ? 'opacity-0 md:opacity-100' : 'opacity-100'
         }`}
         style={{ fontFamily: 'var(--font-inter)' }}
@@ -435,7 +435,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
 
       {/* Back to blog link - hidden on mobile */}
       <div className="fixed top-8 right-10 z-50 hidden md:block">
-        <Link href="/blog" className="text-xs text-[#666] hover:text-black transition-colors" style={{ fontFamily: 'var(--font-inter)' }}>
+        <Link href="/blog" className="text-xs text-[#555] hover:text-black transition-colors" style={{ fontFamily: 'var(--font-inter)' }}>
           ← back to blog
         </Link>
       </div>
@@ -460,7 +460,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
             {tocItems.map((item) => (
               <button
                 key={item.id}
-                className="block text-left text-[#666] hover:text-black transition-colors cursor-pointer bg-transparent border-none p-0 w-full"
+                className="block text-left text-[#555] hover:text-black transition-colors cursor-pointer bg-transparent border-none p-0 w-full"
                 onClick={() => {
                   const element = document.getElementById(item.id);
                   if (element) {
@@ -478,7 +478,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
           <div className="mt-8 pt-8 border-t border-gray-200">
             <Link 
               href="/blog" 
-              className="text-xs text-[#666] hover:text-black transition-colors block"
+              className="text-xs text-[#555] hover:text-black transition-colors block"
               style={{ fontFamily: 'var(--font-inter)' }}
               onClick={() => setIsMobileMenuOpen(false)}
             >
@@ -498,7 +498,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
               {tocItems.map((item) => (
                 <button
                   key={item.id}
-                  className="block text-left text-[#666] hover:text-black transition-colors cursor-pointer bg-transparent border-none p-0 w-full"
+                  className="block text-left text-[#555] hover:text-black transition-colors cursor-pointer bg-transparent border-none p-0 w-full"
                   onClick={() => {
                     const element = document.getElementById(item.id);
                     if (element) {
@@ -523,7 +523,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
                 style={{ fontFamily: 'var(--font-old-style-bt)' }}
                 dangerouslySetInnerHTML={{ __html: post.title }}
               />
-              <div className="text-sm text-[#666] text-center font-normal" style={{ fontFamily: 'var(--font-old-style-bt)' }}>
+              <div className="text-sm text-[#555] text-center font-normal" style={{ fontFamily: 'var(--font-old-style-bt)' }}>
                 <div>{Array.isArray(post.author) ? post.author.join(', ') : post.author}</div>
                 <div>{post.date}</div>
               </div>
@@ -561,7 +561,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
                     style={{ maxWidth: '100%', height: 'auto', borderRadius: '6px' }}
                     quality={95}
                   />
-                  <figcaption className="text-xs text-[#666] mt-2" style={{ fontFamily: 'var(--font-iowan)' }}>
+                  <figcaption className="text-xs text-[#555] mt-2" style={{ fontFamily: 'var(--font-iowan)' }}>
                     The architecture and reasoning flow of Thought MAS. 
                   </figcaption>
                 </figure>
@@ -599,7 +599,7 @@ Daivik Patel: Blog, Oct 2025.`}</code>
             <footer className="mt-16 pt-8 border-t border-gray-200 flex justify-center text-sm" style={{ fontFamily: 'var(--font-inter)' }}>
               <button
                 type="button"
-                className="text-[#666] hover:text-black transition-colors cursor-pointer"
+                className="text-[#555] hover:text-black transition-colors cursor-pointer"
                 style={{ background: 'none', border: 'none', padding: 0 }}
                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               >
@@ -610,7 +610,7 @@ Daivik Patel: Blog, Oct 2025.`}</code>
 
           {/* Right column - Metadata or empty for breathing room */}
           <aside className="sticky top-24 h-fit hidden lg:block">
-            <div className="text-xs text-[#666] space-y-4" style={{ fontFamily: 'var(--font-inter)' }}>
+            <div className="text-xs text-[#555] space-y-4" style={{ fontFamily: 'var(--font-inter)' }}>
               <div>
                 <div className="text-[#999] uppercase tracking-wider mb-2">Published</div>
                 <div style={{ fontFamily: 'var(--font-old-style-bt)' }}>{post.date}</div>

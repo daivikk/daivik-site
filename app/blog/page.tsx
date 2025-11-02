@@ -26,16 +26,16 @@ const blogPosts = [
 
 export default function Blog() {
   return (
-    <main className="relative min-h-screen w-screen pl-16 pr-[60px] py-10 overflow-x-hidden">
+    <main className="relative min-h-screen w-screen px-6 md:pl-16 md:pr-[60px] py-10 overflow-x-hidden">
       <TimeDisplay />
 
       {/* Navigation - top right */}
-      <div className="absolute top-8 right-10">
+      <div className="absolute top-8 right-6 md:right-10">
         <Navigation />
       </div>
 
       {/* Main content area */}
-      <div className="pt-32 max-w-2xl">
+      <div className="pt-20 md:pt-32 max-w-2xl">
         <h1 className="text-[2.75rem] font-normal mb-6 text-black">
           Blog
         </h1>
@@ -50,7 +50,7 @@ export default function Blog() {
                     <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
                   </svg>
                 </p>
-                <p className="text-xs text-[#666] mb-2">
+                <p className="text-xs text-[#555] mb-2">
                   {Array.isArray(post.author) ? post.author.join(', ') : post.author} · {post.date}
                 </p>
                 <p className="text-sm">
