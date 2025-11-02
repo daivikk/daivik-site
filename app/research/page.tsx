@@ -13,10 +13,10 @@ export default function Research() {
             href="https://openreview.net/pdf?id=8uog3DwG3v"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold text-[#333] hover:text-black transition-colors no-underline inline-flex items-center gap-0.5 group"
+            className="font-bold text-[#333] hover:text-black transition-colors no-underline group inline md:inline-flex md:items-center md:gap-0.5"
           >
             Reuse, Don't Recompute
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5 inline md:inline align-middle ml-1 md:ml-0">
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a><br />
@@ -28,10 +28,10 @@ export default function Research() {
             href="https://openreview.net/pdf?id=D7WqEZzwRR"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold text-[#333] hover:text-black transition-colors no-underline inline-flex items-center gap-0.5 group"
+            className="font-bold text-[#333] hover:text-black transition-colors no-underline group inline md:inline-flex md:items-center md:gap-0.5"
           >
             ENGRAM: Effective, Lightweight Memory Orchestration for Conversational Agents
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5 inline md:inline align-middle ml-1 md:ml-0">
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a><br />
@@ -43,10 +43,10 @@ export default function Research() {
             href="https://arxiv.org/pdf/2412.06936"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold text-[#333] hover:text-black transition-colors no-underline inline-flex items-center gap-0.5 group"
+            className="font-bold text-[#333] hover:text-black transition-colors no-underline group inline md:inline-flex md:items-center md:gap-0.5"
           >
             Cooperative AI Policy-Making
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5 inline md:inline align-middle ml-1 md:ml-0">
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a><br />
@@ -58,10 +58,10 @@ export default function Research() {
             href="https://github.com/daivikk/ml-experiments"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold text-[#333] hover:text-black transition-colors no-underline inline-flex items-center gap-0.5 group"
+            className="font-bold text-[#333] hover:text-black transition-colors no-underline group inline md:inline-flex md:items-center md:gap-0.5"
           >
             A Collection of ML Experiments
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5 inline md:inline align-middle ml-1 md:ml-0">
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a><br />
