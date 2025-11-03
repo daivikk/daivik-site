@@ -3,6 +3,7 @@
 import TimeDisplay from './TimeDisplay';
 import Navigation from './Navigation';
 import LocationIndicator from './LocationIndicator';
+import Footnotes from './Footnotes';
 
 interface PageLayoutProps {
   children: React.ReactNode;
@@ -23,6 +24,7 @@ export default function PageLayout({ children }: PageLayoutProps) {
       </div>
 
       <LocationIndicator />
+      <Footnotes />
     </main>
   );
 }

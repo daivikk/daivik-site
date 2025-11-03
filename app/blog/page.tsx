@@ -3,6 +3,7 @@
 import TimeDisplay from '../../components/TimeDisplay';
 import Navigation from '../../components/Navigation';
 import LocationIndicator from '../../components/LocationIndicator';
+import Footnotes from '../../components/Footnotes';
 import Link from 'next/link';
 
 // Blog posts data - you can move this to a separate file or CMS later
@@ -43,9 +44,9 @@ export default function Blog() {
         <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333]">
           {blogPosts.map((post) => (
             <div key={post.slug}>
-              <Link href={`/blog/${post.slug}`} className="no-underline hover:opacity-70 transition-opacity group">
+              <Link href={`/blog/${post.slug}`} className="no-underline group">
                 <p className="mb-1 inline-flex items-center gap-0.5">
-                  <strong>{post.title}</strong>
+                  <strong className="group-hover:text-black transition-colors">{post.title}</strong>
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
                     <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
                   </svg>
@@ -63,6 +64,7 @@ export default function Blog() {
       </div>
 
       <LocationIndicator />
+      <Footnotes />
     </main>
   );
 }

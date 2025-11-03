@@ -1,6 +1,7 @@
 import { MeshGradient } from '@paper-design/shaders-react';
 import { Inter } from 'next/font/google';
 import localFont from 'next/font/local';
+import type { Metadata } from 'next';
 import './globals.css';
 
 const inter = Inter({
@@ -33,6 +34,14 @@ const oldStyleBT = localFont({
   ],
   variable: '--font-iowan'
 });
+
+export const metadata: Metadata = {
+  title: 'daivik patel',
+  description: 'deriving how to build intelligence that expands human possibility',
+  icons: {
+    icon: '/favicon.ico',
+  },
+};
 
 export default function RootLayout({
   children,
