@@ -70,7 +70,7 @@ export default function Experiences() {
         </p>
 
         <p>
-          cofounded <strong>param</strong> to build voice agents for dentists and health insurance companies. <br /> raised $25k as part of the{' '}
+          cofounded <strong>param</strong> to build voice agents for dentists and health insurance companies. <br /> received $25k as part of the{' '}
           <a
             href="https://telora.com/"
             target="_blank"
