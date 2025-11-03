@@ -88,7 +88,7 @@ export default function Sidequests() {
 
         <p>
           <strong>grossman innovation prize</strong><br />
-          <em>awarded $50k for the best research in school of arts and sciences </em>
+          <em>awarded $50k for the best research in the rutgers school of arts and sciences </em>
         </p>
       </div>
     </PageLayout>

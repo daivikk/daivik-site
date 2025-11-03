@@ -12,7 +12,7 @@ const blogPosts = [
     slug: 'simulating-human-reasoning',
     title: 'Simulating Human Reasoning Beyond Linearity',
     date: 'Oct 29, 2025',
-    description: 'By letting our models wander through uncertainty, we give them the first glimpse of what it means to reason',
+    description: 'by letting our models wander through uncertainty, we give them the first glimpse of what it means to reason.',
     author: ['Daivik Patel', 'Shrenik Patel']
   },
   // {
