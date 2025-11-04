@@ -621,7 +621,7 @@ Daivik Patel: Blog, Oct 2025.`}</code>
               </div>
               <div>
                 <div className="text-[#999] uppercase tracking-wider mb-2">Reading Time</div>
-                <div style={{ fontFamily: 'var(--font-old-style-bt)' }}>{params.slug === 'simulating-human-reasoning' ? '17 min read' : '5 min read'}</div>
+                <div style={{ fontFamily: 'var(--font-old-style-bt)' }}>{params.slug === 'simulating-human-reasoning' ? '9 min read' : '5 min read'}</div>
               </div>
             </div>
           </aside>
