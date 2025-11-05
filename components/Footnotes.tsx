@@ -4,7 +4,7 @@ export default function Footnotes() {
       <p className="mb-3 text-xs">footnotes</p>
       <div className="flex gap-3">
         <a
-          href="https://www.linkedin.com/in/daivik-patel-030b86255"
+          href="https://www.linkedin.com/in/daivikk"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#333] hover:text-black transition-colors group inline-flex items-center gap-1"
