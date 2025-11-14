@@ -8,6 +8,21 @@ export default function Research() {
       </h1>
       
       <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333]">
+      <p>
+          <a
+            href="https://drive.google.com/file/d/1SyhmwahU5xhvRE8OCeBi9nLhMtdPFgvF/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-[#333] hover:text-black transition-colors no-underline group inline md:inline-flex md:items-center md:gap-0.5"
+          >
+            CacheFlow: Compressive Streaming Memory for Efficient Long-Form Video Understanding
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5 inline md:inline align-middle ml-1 md:ml-0">
+              <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
+            </svg>
+          </a><br />
+          <em>Nov 2025 | under review for CVPR 2026</em>
+        </p>
+
         <p>
           <a
             href="https://drive.google.com/file/d/1WvuTqG4PnfqtveKRnDjLhxaE9YjBB1VJ/view?usp=sharing"
@@ -20,7 +35,7 @@ export default function Research() {
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a><br />
-          <em>NeurIPS 2025 efficient reasoning workshop paper</em>
+          <em>Oct 2025 | NeurIPS 2025 efficient reasoning workshop paper</em>
         </p>
 
         <p>
@@ -35,7 +50,7 @@ export default function Research() {
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a><br />
-          <em>under review for ICLR 2026</em>
+          <em>Sep 2025 | under review for ICLR 2026</em>
         </p>
 
         <p>
@@ -50,7 +65,7 @@ export default function Research() {
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a><br />
-          <em>arxiv technical report preprint</em>
+          <em>May 2025 | arxiv technical report preprint</em>
         </p>
 
         <p>
@@ -65,7 +80,7 @@ export default function Research() {
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a><br />
-          <em>replicated recent ml papers from top academic labs</em>
+          <em>Apr 2025 | replicated recent ml papers from top academic labs</em>
         </p>
       </div>
     </PageLayout>

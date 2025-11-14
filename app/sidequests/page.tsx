@@ -9,7 +9,7 @@ export default function Sidequests() {
 
       <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333]">
         <div>
-          <strong>hackathon experience</strong>
+          <strong>hackathon wins</strong>
           <div className="flex flex-col gap-1 mt-2">
             <a
               href="https://devpost.com/software/healthytales"
@@ -88,7 +88,7 @@ export default function Sidequests() {
 
         <p>
           <strong>grossman innovation prize</strong><br />
-          <em>awarded $50k for the best research in the rutgers school of arts and sciences </em>
+          <em>awarded <strong>$50k</strong> for the best research in the rutgers school of arts and sciences </em> 
         </p>
       </div>
     </PageLayout>
