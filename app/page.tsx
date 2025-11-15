@@ -37,7 +37,7 @@ export default function Home() {
 
           <p>
             <span className="text-[#555] mr-3">2.</span>
-            a 20-year-old studying math and cs at rutgers honors college. currently exploring research, though past lives have been startups and full-stack engineering.
+            a 20-year-old studying math and cs at rutgers honors college. currently exploring research, though my past lives have been startups and full-stack engineering.
           </p>
 
           <p>
