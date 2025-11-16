@@ -94,7 +94,19 @@ export default function Experiences() {
         </p>
 
         <p>
-          cofounded <strong>param</strong> to build voice agents for dentists and health insurance companies. <br /> received $25k as part of the{' '}
+          cofounded{' '}
+          <a
+            href="https://param-omega.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-[#333] hover:text-black transition-colors no-underline inline-flex items-center gap-0.5 group"
+          >
+            param
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
+              <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
+            </svg>
+          </a>{' '}
+          to build voice agents for dentists and health insurance companies. <br /> received $25k as part of the{' '}
           <a
             href="https://telora.com/"
             target="_blank"
