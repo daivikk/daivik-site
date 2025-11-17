@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@paper-design/shaders-react": "^0.0.60",
+    "@vercel/analytics": "^1.5.0",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
