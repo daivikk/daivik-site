@@ -10,7 +10,7 @@ export default function Research() {
       <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333]">
       <p>
           <a
-            href="https://drive.google.com/file/d/1SyhmwahU5xhvRE8OCeBi9nLhMtdPFgvF/view?usp=sharing"
+            href="https://arxiv.org/pdf/2511.13644"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-[#333] hover:text-black transition-colors no-underline group inline md:inline-flex md:items-center md:gap-0.5"
@@ -25,7 +25,7 @@ export default function Research() {
 
         <p>
           <a
-            href="https://drive.google.com/file/d/1WvuTqG4PnfqtveKRnDjLhxaE9YjBB1VJ/view?usp=sharing"
+            href="https://arxiv.org/pdf/2511.12987"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-[#333] hover:text-black transition-colors no-underline group inline md:inline-flex md:items-center md:gap-0.5"
@@ -40,7 +40,7 @@ export default function Research() {
 
         <p>
           <a
-            href="https://openreview.net/pdf?id=D7WqEZzwRR"
+            href="https://arxiv.org/pdf/2511.12960"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-[#333] hover:text-black transition-colors no-underline group inline md:inline-flex md:items-center md:gap-0.5"
