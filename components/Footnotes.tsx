@@ -18,6 +18,20 @@ export default function Footnotes() {
           </svg>
         </a>
         <a
+          href="https://scholar.google.com/citations?user=Svwe7u8AAAAJ&hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#333] hover:text-black transition-colors group inline-flex items-center gap-1"
+          aria-label="Google Scholar"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512" className="text-[#373737] group-hover:scale-110 transition-transform">
+            <path fill="currentColor" d="M390.9 298.5s0 .1.1.1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64c1.7-3.6 3.6-7.2 5.6-10.7q6.6-11.4 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7L256 0l256 202.7l-94.7 77.1z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
+            <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
+          </svg>
+        </a>
+        <a
           href="https://substack.com/@daivik"
           target="_blank"
           rel="noopener noreferrer"
