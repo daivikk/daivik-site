@@ -83,12 +83,12 @@ export default function Sidequests() {
         <p>
           <strong>notable projects</strong><br />
           <em>built passionfruit, a personality test taken by <strong>270,000+</strong> people<br />
-          built piggybank, a stock analysis discord bot with <strong>32,000+</strong> active users</em>
+          built piggybank, a stock analysis discord bot with <strong>32,000+</strong> users</em>
         </p>
 
         <p>
           <strong>grossman innovation prize</strong><br />
-          <em>awarded <strong>$50k</strong> for the best research in the rutgers school of arts and sciences </em> 
+          <em>awarded <strong>$50,000</strong> for the best research in the rutgers school of arts and sciences </em> 
         </p>
       </div>
     </PageLayout>

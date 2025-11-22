@@ -42,7 +42,7 @@ export default function Home() {
 
           <p>
             <span className="text-[#555] mr-3">3.</span>
-            trying to understand what it means to contribute meaningfully to the human story. here's my belief so far: do things with high variance, choose your work and your company with intention, and lead with kindness.
+            trying to understand what it means to contribute meaningfully to the human story. here's my belief so far: do things with high variance, choose your work and your company with intention, and lead with <b>kindness</b>.
           </p>
         </div>
       </div>

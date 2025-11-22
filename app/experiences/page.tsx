@@ -24,7 +24,7 @@ export default function Experiences() {
         </p>
 
         <p>
-          researched and built large <strong>multi agent systems</strong> from scratch at{' '} 
+          researched and built large-scale <strong>multi agent systems</strong> from scratch at{' '} 
           <a
             href="https://isara.io/"
             target="_blank"
@@ -75,7 +75,7 @@ export default function Experiences() {
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
-          </a> <br /> used by 1.5k+ students. also tinkering with <strong>vlms</strong>.
+          </a> <br /> used by <b>1,500+</b> students. also tinkering with <strong>vlms</strong>.
         </p>
 
         <p>
@@ -106,7 +106,7 @@ export default function Experiences() {
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a>{' '}
-          to build voice agents for dentists and health insurance companies. <br /> received $25k as part of the{' '}
+          to build voice agents for clinical insurance workflows. <br /> received <b>$25,000</b> as part of the{' '}
           <a
             href="https://telora.com/"
             target="_blank"
