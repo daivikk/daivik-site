@@ -25,7 +25,7 @@ export default function TimeDisplay() {
 
   return (
     <div
-      className="absolute top-8 left-6 md:left-16 text-sm text-black"
+      className="absolute top-8 left-6 md:left-16 text-[0.80rem] text-black"
       style={{ fontFamily: 'var(--font-iowan)' }}
     >
       {currentTime}

@@ -27,7 +27,7 @@ export default function Navigation() {
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm transition-colors duration-200 ${
+              className={`text-[0.80rem] transition-colors duration-200 ${
                 isActive 
                   ? 'text-black underline underline-offset-4' 
                   : 'text-[#555] hover:text-black no-underline'
@@ -83,7 +83,7 @@ export default function Navigation() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className={`text-sm transition-colors duration-200 ${
+                className={`text-xs transition-colors duration-200 ${
                   isActive 
                     ? 'text-black underline underline-offset-4' 
                     : 'text-[#555] hover:text-black no-underline'

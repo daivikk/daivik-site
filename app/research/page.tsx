@@ -3,11 +3,11 @@ import PageLayout from '../../components/PageLayout';
 export default function Research() {
   return (
     <PageLayout>
-      <h1 className="text-[2.75rem] font-normal mb-6 text-black">
+      <h1 className="text-[2.75rem] font-normal mb-4 text-black">
         Research
       </h1>
       
-      <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333]">
+      <div className="flex flex-col gap-4 text-sm leading-relaxed text-[#333]">
       <p>
           <a
             href="https://arxiv.org/pdf/2511.13644"

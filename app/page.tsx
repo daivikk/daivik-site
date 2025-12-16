@@ -16,20 +16,20 @@ export default function Home() {
       {/* Main content - left aligned */}
       <div className="max-w-2xl pt-20 md:pt-32">
         {/* Name as dictionary entry */}
-        <h1 className="text-5xl font-normal mb-2 text-black flex items-center">
+        <h1 className="text-[2.75rem] font-normal mb-1 text-black flex items-center">
           daivik<span className="mx-1 inline-block">·</span>patel
         </h1>
         
-        <p className="text-sm text-[#555] mb-8">
+        <p className="text-xs text-[#555] mb-6">
         /ˈdaɪ.vɪk pəˈtɛl/
         </p>
 
-        <p className="text-md text-[#555] mb-6">
+        <p className="text-sm text-[#555] mb-6">
           noun
         </p>
 
         {/* Definitions */}
-        <div className="flex flex-col gap-2 text-base leading-relaxed text-[#333]">
+        <div className="flex flex-col gap-2 text-sm text-base leading-relaxed text-[#333] max-w-[38rem]">
           <p>
             <span className="text-[#555] mr-3">1.</span>
             a seeker deriving how to build intelligence that expands human possibility.

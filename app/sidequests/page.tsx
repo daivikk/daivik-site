@@ -3,11 +3,11 @@ import PageLayout from '../../components/PageLayout';
 export default function Sidequests() {
   return (
     <PageLayout>
-      <h1 className="text-[2.75rem] font-normal mb-6 text-black">
+      <h1 className="text-[2.75rem] font-normal mb-4 text-black">
         Sidequests
       </h1>
 
-      <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333]">
+      <div className="flex flex-col gap-4 text-sm leading-relaxed text-[#333]">
         <div>
           <strong>hackathon wins</strong>
           <div className="flex flex-col gap-1 mt-2">

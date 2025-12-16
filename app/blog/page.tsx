@@ -37,11 +37,11 @@ export default function Blog() {
 
       {/* Main content area */}
       <div className="pt-20 md:pt-32 max-w-2xl">
-        <h1 className="text-[2.75rem] font-normal mb-6 text-black">
+        <h1 className="text-[2.75rem] font-normal mb-4 text-black">
           Blog
         </h1>
         
-        <div className="flex flex-col gap-6 text-sm leading-relaxed text-[#333]">
+        <div className="flex flex-col gap-4 text-sm leading-relaxed text-[#333]">
           {blogPosts.map((post) => (
             <div key={post.slug}>
               <Link href={`/blog/${post.slug}`} className="no-underline group">
