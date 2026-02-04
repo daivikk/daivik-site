@@ -10,7 +10,7 @@ export default function Research() {
       <div className="flex flex-col gap-4 text-sm leading-relaxed text-[#333]">
       <p>
           <a
-            href="https://drive.google.com/file/d/1vPLw8pRNPFWh2PqFnMFcYcieTYDYzDvM/view?usp=sharing"
+            href="https://arxiv.org/pdf/2602.02894"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-[#333] hover:text-black transition-colors no-underline group inline md:inline-flex md:items-center md:gap-0.5"
