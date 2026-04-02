@@ -37,12 +37,12 @@ export default function Home() {
 
           <p>
             <span className="text-[#555] mr-3">2.</span>
-            a 20-year-old studying math and cs at rutgers honors college. currently exploring research, though my past lives have been startups and full-stack engineering.
+            a 20-year-old studying math and cs at rutgers honors college. currently exploring research, though my past lives have been startups, hackathons, and full-stack engineering.
           </p>
 
           <p>
             <span className="text-[#555] mr-3">3.</span>
-            trying to understand what it means to contribute meaningfully to the human story. here's my belief so far: do things with high variance, choose your work and your company with intention, and lead with <b>kindness</b>.
+            trying to understand what it means to contribute meaningfully to the human story. here's my belief so far: do things with high variance, choose your work and your people with intention, and lead with <b>kindness</b>.
           </p>
         </div>
       </div>

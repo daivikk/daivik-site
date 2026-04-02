@@ -24,7 +24,7 @@ export default function Experiences() {
         </p>
 
         <p>
-          researched and built large-scale <strong>multi agent systems</strong> from scratch at{' '} 
+          researched and built large-scale <strong>multi agent systems</strong> as the first intern at{' '} 
           <a
             href="https://isara.io/"
             target="_blank"
@@ -36,7 +36,19 @@ export default function Experiences() {
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a>
-          <br /> more to come soon :).
+          <br /> backed by{' '}
+          <a
+            href="https://www.wsj.com/tech/ai/openai-backs-new-ai-startup-seeking-bot-army-breakthroughs-a0b1fedc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-[#333] hover:text-black transition-colors no-underline inline-flex items-center gap-0.5 group"
+          >
+            openai
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
+              <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
+            </svg>
+          </a>{' '}
+          at a $650m valuation, more to come soon :).
         </p>
 
         <p>
@@ -47,7 +59,7 @@ export default function Experiences() {
             rel="noopener noreferrer"
             className="font-semibold text-[#333] hover:text-black transition-colors no-underline inline-flex items-center gap-0.5 group"
           >
-            dr. gunawardena
+            prof. gunawardena
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
@@ -75,7 +87,7 @@ export default function Experiences() {
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
-          </a> <br /> used by <b>1,500+</b> students. also tinkering with <strong>vlms</strong>.
+          </a> <br /> used by <b>1,500+</b> students. also tinkering with <strong>memory</strong> and <strong>reasoning</strong> systems.
         </p>
 
         <p>

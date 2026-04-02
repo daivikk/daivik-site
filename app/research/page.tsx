@@ -49,7 +49,7 @@ export default function Research() {
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a><br />
-          <em>Oct 2025 | NeurIPS 2025 efficient reasoning workshop paper</em>
+          <em>Oct 2025 | NeurIPS 2025 efficient reasoning workshop</em>
         </p>
 
         <p>
@@ -64,7 +64,7 @@ export default function Research() {
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a><br />
-          <em>Sep 2025 | under review for ICLR 2026</em>
+          <em>Sep 2025 | ICLR 2026 memagents workshop</em>
         </p>
 
         <p>
