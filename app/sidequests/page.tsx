@@ -8,9 +8,23 @@ export default function Sidequests() {
       </h1>
 
       <div className="flex flex-col gap-4 text-sm leading-relaxed text-[#333]">
+      <div>
+          <strong>commencement speaker</strong><br />
+          <a
+            href="https://www.youtube.com/watch?v=YNbq2NBES6c"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#333] hover:text-black transition-colors no-underline inline-flex items-center gap-0.5 group italic"
+          >
+            <em>selected to address the rutgers honors college class of 2026 alongside my twin brother</em>
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
+              <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
+            </svg>
+          </a>
+        </div>
         <div>
           <strong>hackathon wins</strong>
-          <div className="flex flex-col gap-1 mt-2">
+          <div className="flex flex-col gap-1">
             <a
               href="https://devpost.com/software/healthytales"
               target="_blank"
@@ -79,16 +93,21 @@ export default function Sidequests() {
             </a>
           </div>
         </div>
+
+        <p>
+          <strong>grossman innovation prize</strong><br />
+          <em>awarded <strong>$50,000</strong> for the best research in the rutgers school of arts and sciences </em> 
+        </p>
+
+        <p>
+          <strong>paul robeson centennial scholar</strong><br />
+          <em>awarded for my senior thesis on memory and efficient reasoning in language models</em>
+        </p>
         
         <p>
           <strong>notable projects</strong><br />
           <em>built passionfruit, a personality test taken by <strong>270,000+</strong> people<br />
           built piggybank, a stock analysis discord bot with <strong>32,000+</strong> users</em>
-        </p>
-
-        <p>
-          <strong>grossman innovation prize</strong><br />
-          <em>awarded <strong>$50,000</strong> for the best research in the rutgers school of arts and sciences </em> 
         </p>
       </div>
     </PageLayout>

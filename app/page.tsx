@@ -32,17 +32,34 @@ export default function Home() {
         <div className="flex flex-col gap-2 text-sm text-base leading-relaxed text-[#333] max-w-[38rem]">
           <p>
             <span className="text-[#555] mr-3">1.</span>
-            a seeker deriving how to build intelligence that expands human possibility.
+            a researcher exploring how intelligence can help people flourish.
             </p>
 
           <p>
             <span className="text-[#555] mr-3">2.</span>
-            a 20-year-old studying math and cs at rutgers honors college. currently exploring research, though my past lives have been startups, hackathons, and full-stack engineering.
+            incoming mphil student at the{' '}
+            <a
+              href="https://www.chia.cam.ac.uk/research"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-[#333] hover:text-black transition-colors no-underline inline-flex items-center gap-0.5 group"
+            >
+              university of cambridge
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
+                <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
+              </svg>
+            </a>{' '}
+            studying responsible and <br /> human-inspired ai. previously studied math and cs at rutgers honors college.
           </p>
 
           <p>
             <span className="text-[#555] mr-3">3.</span>
-            trying to understand what it means to contribute meaningfully to the human story. here's my belief so far: do things with high variance, choose your work and your people with intention, and lead with <b>kindness</b>.
+            currently exploring research, though my past lives have been startups, hackathons, and <br /> full-stack engineering.
+          </p>
+
+          <p>
+            <span className="text-[#555] mr-3">4.</span>
+            my current philosophy: maximize your entropy, notice and care for people deeply, and <br /> lead with <b>kindness</b>.
           </p>
         </div>
       </div>
