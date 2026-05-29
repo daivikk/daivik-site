@@ -36,7 +36,7 @@ export default function Experiences() {
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a>
-          <br /> backed by{' '}
+          <br className="hidden md:block" /> backed by{' '}
           <a
             href="https://www.wsj.com/tech/ai/openai-backs-new-ai-startup-seeking-bot-army-breakthroughs-a0b1fedc"
             target="_blank"
@@ -87,7 +87,7 @@ export default function Experiences() {
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
-          </a> <br /> used by <b>1,500+</b> students. also tinkering with <strong>memory</strong> and <strong>reasoning</strong> systems.
+          </a> <br className="hidden md:block" /> used by <b>1,500+</b> students. also tinkering with <strong>memory</strong> and <strong>reasoning</strong> systems.
         </p>
 
         <p>
@@ -118,7 +118,7 @@ export default function Experiences() {
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a>{' '}
-          to build voice agents for clinical insurance workflows. <br /> received <b>$25,000</b> as part of the{' '}
+          to build voice agents for clinical insurance workflows. <br className="hidden md:block" /> received <b>$25,000</b> as part of the{' '}
           <a
             href="https://telora.com/"
             target="_blank"

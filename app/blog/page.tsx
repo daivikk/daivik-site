@@ -27,7 +27,7 @@ const blogPosts = [
 
 export default function Blog() {
   return (
-    <main className="relative min-h-screen w-screen px-6 md:pl-16 md:pr-[60px] py-10 overflow-x-hidden">
+    <main className="relative min-h-screen w-screen px-6 md:pl-16 md:pr-[60px] py-10 overflow-x-hidden flex flex-col">
       <TimeDisplay />
 
       {/* Navigation - top right */}
@@ -36,7 +36,7 @@ export default function Blog() {
       </div>
 
       {/* Main content area */}
-      <div className="pt-20 md:pt-32 max-w-2xl">
+      <div className="pt-20 md:pt-32 max-w-2xl flex-grow">
         <h1 className="text-[2.75rem] font-normal mb-4 text-black">
           Blog
         </h1>
@@ -63,8 +63,10 @@ export default function Blog() {
         </div>
       </div>
 
-      <LocationIndicator />
-      <Footnotes />
+      <div className="mt-16 flex justify-between items-end">
+        <Footnotes />
+        <LocationIndicator />
+      </div>
     </main>
   );
 }

@@ -11,7 +11,7 @@ interface PageLayoutProps {
 
 export default function PageLayout({ children }: PageLayoutProps) {
   return (
-    <main className="relative min-h-screen w-screen px-6 md:pl-16 md:pr-[60px] py-10 overflow-x-hidden">
+    <main className="relative min-h-screen w-screen px-6 md:pl-16 md:pr-[60px] py-10 overflow-x-hidden flex flex-col">
       <TimeDisplay />
       
       {/* Navigation - top right */}
@@ -19,12 +19,14 @@ export default function PageLayout({ children }: PageLayoutProps) {
         <Navigation />
       </div>
 
-      <div className="pt-20 md:pt-32 max-w-2xl">
+      <div className="pt-20 md:pt-32 max-w-2xl flex-grow">
         {children}
       </div>
 
-      <LocationIndicator />
-      <Footnotes />
+      <div className="mt-16 flex justify-between items-end">
+        <Footnotes />
+        <LocationIndicator />
+      </div>
     </main>
   );
 }

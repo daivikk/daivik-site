@@ -1,6 +1,6 @@
 export default function Footnotes() {
   return (
-    <div className="absolute bottom-10 left-6 md:left-16 text-sm text-[#555]">
+    <div className="text-sm text-[#555]">
       <p className="mb-3 text-xs">footnotes</p>
       <div className="flex gap-3">
         <a
