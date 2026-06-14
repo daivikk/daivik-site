@@ -9,7 +9,33 @@ export default function Experiences() {
 
       <div className="flex flex-col gap-4 text-sm leading-relaxed text-[#333]">
         <p>
-          solving olympiad math and coding questions to train and fine tune models at{' '}
+          researching multi-agent systems and ai scientists at{' '}
+          <a
+            href="https://www.princeton.edu/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-[#333] hover:text-black transition-colors no-underline inline-flex items-center gap-0.5 group"
+          >
+            princeton university.
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
+              <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
+            </svg>
+          </a> <br className="hidden md:block" /> advised by{' '}
+          <a
+            href="https://liuzhuang13.github.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-[#333] hover:text-black transition-colors no-underline inline-flex items-center gap-0.5 group"
+          >
+            prof. zhuang liu.
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
+              <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
+            </svg>
+          </a>
+        </p>
+
+        <p>
+          solved math and coding questions to train and fine tune models at{' '}
           <a
             href="https://scale.com/"
             target="_blank"
@@ -24,7 +50,7 @@ export default function Experiences() {
         </p>
 
         <p>
-          researched and built large-scale <strong>multi agent systems</strong> as the first intern at{' '} 
+          researched and built large-scale multi-agent systems as the first intern at{' '} 
           <a
             href="https://isara.io/"
             target="_blank"
@@ -87,7 +113,7 @@ export default function Experiences() {
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" className="text-[#999] transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
-          </a> <br className="hidden md:block" /> used by <b>1,500+</b> students. also tinkering with <strong>memory</strong> and <strong>reasoning</strong> systems.
+          </a> <br className="hidden md:block" /> used by 1,500+ students. also tinkering with memory and reasoning systems.
         </p>
 
         <p>
@@ -118,7 +144,7 @@ export default function Experiences() {
               <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z"/>
             </svg>
           </a>{' '}
-          to build voice agents for clinical insurance workflows. <br className="hidden md:block" /> received <b>$25,000</b> as part of the{' '}
+          to build voice agents for clinical insurance workflows. <br className="hidden md:block" /> received $25,000 as part of the{' '}
           <a
             href="https://telora.com/"
             target="_blank"

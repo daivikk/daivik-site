@@ -41,7 +41,7 @@ export default function Navigation() {
 
       {/* Mobile Hamburger Button */}
       <button
-        className="md:hidden flex items-center justify-center w-10 h-10 rounded-lg bg-[#F7F6F3] shadow-md hover:shadow-lg transition-shadow z-50"
+        className="md:hidden flex items-center justify-center z-50 text-[#666]"
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Toggle menu"
       >
@@ -60,14 +60,14 @@ export default function Navigation() {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-[#F7F6F3] shadow-2xl z-40 transform transition-transform duration-300 ease-out md:hidden ${
+        className={`fixed top-0 right-0 h-full w-64 bg-[#F7F6F3] z-40 transform transition-transform duration-300 ease-out md:hidden ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         {/* Close button */}
         <button
           onClick={() => setIsOpen(false)}
-          className="absolute top-8 right-6 w-10 h-10 flex items-center justify-center rounded-lg bg-[#F7F6F3] shadow-md hover:shadow-lg transition-shadow"
+          className="absolute top-8 right-6 flex items-center justify-center text-[#666]"
           aria-label="Close menu"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
